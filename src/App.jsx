@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { useEffect } from 'react';
-import '../css/App.css'
-import BottomHeader from './BottomHeader/BottomHeader';
-import Card from './Card/Card';
-import mockData from '../data/mockData.json';
+import './css/App.css'
+import BottomHeader from './components/BottomHeader/BottomHeader';
+import Card from './components/Card/Card';
+import mockData from './data/mockData.json';
 
 function App() {
 
